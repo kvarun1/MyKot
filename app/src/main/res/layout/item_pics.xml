@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/download"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here"
+        android:id="@+id/txt"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/_20sdp" />
+
+
+</RelativeLayout>
